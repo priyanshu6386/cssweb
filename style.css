@@ -1,0 +1,130 @@
+
+body{
+    background: url('https://cdn.wallpapersafari.com/64/0/WNaocO.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1 {
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  border: 1px solid black;
+  background-color: #00008b;
+}
+
+.navbar ul li {
+ 
+  display: inline-block;
+  list-style: none;
+  position: relative;
+  left: 50%;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+}
+
+#d1 {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(192, 197, 202);
+  border-right: 5px solid black;
+}
+
+ul{
+  list-style-type: none;
+}
+
+#d2 {
+  width: 1000px;
+  height: 500px;
+  background-color: rgb(7, 11, 15);
+}
+
+.img {
+  width: 990px;
+  height: 500px;
+  animation: image 20s normal infinite ease-in-out;
+}
+
+ a{
+  text-decoration: none;
+}
+
+@keyframes image {
+  0% {
+    background: url("https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220630132824/HTML-Full-Form.jpg");
+    background-repeat: no-repeat;
+  }
+
+  10% {
+    background: url("https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  20% {
+    background: url("https://www.tutorialrepublic.com/lib/images/bootstrap-5.0-illustration.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  30% {
+    background: url("https://img-c.udemycdn.com/course/750x422/1463348_52a4_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  40% {
+    background: url("https://www.webskittersacademy.in/wp-content/uploads/2016/01/Java-As-A-Programming-Language.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  50% {
+    background: url("https://cdn.thenewstack.io/media/2021/11/ab06a958-pythonlogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  60% {
+    background: url("https://www.muylinux.com/wp-content/uploads/2020/11/dotNET.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  70% {
+    background: url("https://www.techopedia.com/wp-content/uploads/2023/02/brochure-flyer-paper-poster-logo-trademark-text-building-office-buildi-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  80% {
+    background: url("https://dh.library.virginia.edu/system/files/styles/large/private/MySQL.PNG?itok=y4tI90y8");
+   
+}
+
+  90% {
+    background: url("https://www.commvault.com/wp-content/uploads/2019/08/mongodb-logo2.jpg?quality=80&w=930");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  100% {
+    background: url("https://media.licdn.com/dms/image/C4D12AQG6oZrADxwpqQ/article-cover_image-shrink_600_2000/0/1594917913096?e=2147483647&v=beta&t=RLFIpIhlvQdmZfTEQMVqNviAcosDvYj87bjTPsm3yYw");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
